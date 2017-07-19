@@ -1,2 +1,3 @@
-# meta-web
-Yocto layer for IoT web components including node.js, API server, iotivity-node, etc
+Collection of layers for the various web components.
+
+Please see the respective READMEs in the layer subdirectories.
