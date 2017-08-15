@@ -5,7 +5,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
 DEPENDS = "nodejs-native glib-2.0 iotivity"
-RDEPENDS_${PN} += "bash iotivity-resource"
+RDEPENDS_${PN} += "iotivity-resource"
 
 SRC_URI = "git://github.com/otcshare/iotivity-node.git;protocol=https"
 SRCREV = "63587a0d365fc66ec40dc6d4354329d0c1ff092f"
