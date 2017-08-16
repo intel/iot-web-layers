@@ -9,7 +9,6 @@ S = "${WORKDIR}/npmpkg"
 NPM_LOCKDOWN := "${THISDIR}/${PN}/lockdown.json"
 NPM_SHRINKWRAP := "${THISDIR}/${PN}/npm-shrinkwrap.json"
 DEPENDS += "bash"
-RDEPENDS_johnny-five-serialport-node-pre-gyp-request-node-uuid += "bash"
 
 inherit npm
 

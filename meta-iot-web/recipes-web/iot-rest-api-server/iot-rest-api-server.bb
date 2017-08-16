@@ -5,7 +5,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://${WORKDIR}/git/LICENSE;md5=f38da8c6b0e047c28fd0952ad7b59784"
 
 DEPENDS = "nodejs-native iotivity iotivity-node"
-RDEPENDS_${PN} += "bash iotivity-node iptables"
+RDEPENDS_${PN} += "iotivity-node iptables"
 
 SRC_URI = "git://git@github.com/01org/iot-rest-api-server.git;protocol=https \
            file://0001-Remove-iotivity-node-dependency.patch \
