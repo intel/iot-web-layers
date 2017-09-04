@@ -103,7 +103,7 @@ pkg_prerm_${PN} () {
 
 PACKAGES =+ "${PN}-npm"
 FILES_${PN}-npm = "${exec_prefix}/lib/node_modules ${bindir}/npm"
-RDEPENDS_${PN}-npm = "python-shell python-datetime python-subprocess python-textutils \
+RDEPENDS_${PN}-npm = "bash python-shell python-datetime python-subprocess python-textutils \
                       python-netclient python-ctypes python-misc python-compiler python-multiprocessing"
 
 PACKAGES =+ "${PN}-systemtap"
